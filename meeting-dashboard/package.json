@@ -18,7 +18,8 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "recharts": "^2.15.4",
-    "tailwind-merge": "^3.5.0"
+    "tailwind-merge": "^3.5.0",
+    "victory-vendor": "36.6.8"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.2.1",

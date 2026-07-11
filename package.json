@@ -1,0 +1,16 @@
+{
+  "name": "csdn-meeting-dashboards",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "meeting-dashboard",
+    "ops-dashboard"
+  ],
+  "scripts": {
+    "dev:meeting": "npm --workspace meeting-dashboard run dev",
+    "dev:ops": "npm --workspace ops-dashboard run dev",
+    "build": "npm run build:meeting && npm run build:ops",
+    "build:meeting": "npm --workspace meeting-dashboard run build",
+    "build:ops": "npm --workspace ops-dashboard run build"
+  }
+}

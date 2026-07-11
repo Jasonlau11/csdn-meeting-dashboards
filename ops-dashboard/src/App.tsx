@@ -742,12 +742,6 @@ export function Dashboard() {
                       65% : 35%
                     </span>
                   </div>
-                  <div className="flex items-center justify-between text-sm mt-1">
-                    <span className="text-muted-foreground">
-                      获客成本 (CAC)
-                    </span>
-                    <span className="tabular-nums font-medium">¥ 4.12</span>
-                  </div>
                 </CardContent>
               </Card>
 

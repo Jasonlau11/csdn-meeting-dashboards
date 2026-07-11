@@ -3,6 +3,7 @@ dist/
 .vite/
 *.local
 *.log
+*.tsbuildinfo
 .DS_Store
 Thumbs.db
 .idea/
